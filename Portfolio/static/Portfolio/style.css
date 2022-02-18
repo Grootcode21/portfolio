@@ -708,32 +708,10 @@ color: #fff;
 }
 
 /*======= scroll up=======*/
-.scrollup{
-    position: fixed;
-    right: 30px;
-    bottom: 10px;
-    background-color: crimson;
-    opacity: .8;
-    padding:0 0.3rem;
-    text-align: center;
-    z-index: 9999;
-    cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s ease;
-}
-.scrollup.show{
-    bottom: 30px;
-    opacity: 1;
-    pointer-events: auto;
-}
-.scrollup:hover{
-    background-color: crimson;
-}
-.scrollup__icon{
-    font-size: 20px;
-    color: #fff;
-}
+
+
+
+
 
 
 
