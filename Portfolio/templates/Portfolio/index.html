@@ -4,7 +4,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Personal Portfolio website</title>
+    <link rel="icon" type="image/x-icon"  href="{% static 'Portfolio/images/favicon.ico'%}"/>
+    <title>Portfolio website</title>
     <meta name="viewport" content="width=device=width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'Portfolio/style.css' %}">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -391,10 +392,10 @@
         </div>
         <p class="footer__copy">&#169; Grootcode. All rights reserved</p>
     </div>
-</section>
-<a href="#" class="scrollup" id="scroll-up">
-    <i class="uil uil-arrow-up scrollup__icon"></i>
-</a>    
+</section> 
+<div class="scroll-up-button">
+    <i class="uil uil-angle-up"></i>
+</div> 
 
      <script src="{% static 'Portfolio/script.js'%}"></script>   
 </body>

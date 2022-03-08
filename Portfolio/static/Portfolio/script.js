@@ -5,11 +5,7 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
-        if(this.scroll > 500){
-            $('.scrollup').addClass("show"); 
-        }else{
-            $('.scrollup').removeClass("show");
-        }
+       
     });
 
     //slide-up script
